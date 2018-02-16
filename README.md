@@ -4,29 +4,22 @@ A USBStealer for Windows that steals credentials from the target machine
 # Requirements:
 
 * -> Target Machine with Windows
-* -> Admin Proveleges
 
 # Contents:
 
-* -> USBCracker.exe (The credential grabber)(Totally Discreet)
-* -> Admin Cracker.exe (Opens a cmd.exe with admin privileges, bypassing admin password)
+* -> USBCracker.exe (The credential grabber)
+* -> usbdll.exe (The same as USBCracker.exe but more Stealthy)
 
 # How to Use:
 
------------
-1st Method
------------
+* ->Just run the USBCracker.exe(usbdll.exe) and click unzip;
+* -If you run the USBCracker.exe you will get a logs.txt file.
+* -If you run the usbdll.exe you will get a file named .logs.txt that is completly hidden from windows visibility. You need to turn on the show hidden files option in the explorer settings.
 
-Go to the "USBCracker" folder and open "USBCracker.exe" and wait about 10~15 seconds passwords will be exported to txt files.
+# Tips:
 
------------
-2nd Method
------------
+* -> If you run the EXE in admin mode you will get more passwords
 
-If you need Admin password and you forget it just go to the "USBCracker" folder and open the "Admin Cracker.exe".
-You will be prompt with a "cmd.exe" in Administrator Mode and then type the following:
-* ->(Your Drive Letter):\
-* ->cd USBCracker
-* ->USBCracker.exe
+# Thanks to:
 
-------------------------------------------------------------------------------------------------------------------------------------------
+# @AlessandroZ
